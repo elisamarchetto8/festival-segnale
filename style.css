@@ -223,7 +223,7 @@ h3 {
 
 #titolo-home {
   max-width: none;
-  white-space: nowrap;
+  white-space: normal;
 }
 
 .luoghi-swiper {
