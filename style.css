@@ -5,10 +5,10 @@
 :root {
   --colore-primario: #188c98;
   --colore-primario-scuro: #1c666e;
-  --colore-sfondo: #f3efe5;
+  --colore-sfondo: #ffffff;
   --colore-testo: #20201e;
-  --font-testo: "Space Grotesk", Arial, sans-serif;
-  --font-titoli: "Fraunces", Georgia, serif;
+  --font-testo: "Google Sans Flex", Arial, sans-serif;
+  --font-titoli: "Montserrat Alternates", Georgia, serif;
 }
 
 * {
@@ -21,6 +21,7 @@ body {
   color: var(--colore-testo);
   font-family: var(--font-testo);
   font-size: 1rem;
+   font-weight: 300;
   line-height: 1.6;
 }
 
@@ -93,6 +94,7 @@ h1,
 h2,
 h3 {
   font-family: var(--font-titoli);
+  font-weight: 700;
   line-height: 1.2;
 }
 
