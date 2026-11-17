@@ -340,3 +340,8 @@ nav a {
     align-items: center;
   }
 }
+
+.venues strong,
+.venue-addresses strong {
+  font-weight: 600;
+}
