@@ -144,10 +144,12 @@ h3 {
 .festival-image {
   display: block;
   width: 100%;
-  max-width: 54rem;
+   max-width: 60rem;
+  aspect-ratio: 2 / 1;
   height: auto;
   margin-top: 1.5rem;
   border-radius: 0.75rem;
+   object-fit: cover;
 }
 
 .venues {
